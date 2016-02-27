@@ -1,0 +1,55 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xd.booksfloating"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.booksfloating.activity.MainActivity"
+           	android:windowSoftInputMode="adjustPan|stateHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity 
+            android:name="com.booksfloating.activity.MyInfoPublish"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoOrder"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoRemind"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoCreditScore"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoSet"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoOrderFragmentActivity"></activity>  
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoOrderAskDetailActivity"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoOrderHelpDetailActivity"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoSetResetPassword"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoSetFeedback"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoSetVersionCheck"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoSetAbout"></activity>
+        <activity 
+            android:name="com.booksfloating.activity.MyInfoIntegralRule"></activity>
+                  
+    </application>
+
+</manifest>
